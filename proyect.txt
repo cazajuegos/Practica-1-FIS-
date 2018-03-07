@@ -69,8 +69,7 @@ Transportistas:
 	Responsabilidades -- Sumistrar datos realacionados con el envio del paquete.
 	Criterios de exito -- Que el sistema permita una facil y comoda introduccion de los datos para el envio del paquete, y un recibo en el plazo acordado.
 	Implicación -- Podra utilizar el sistema para enviar paquetes, ver su estado de envio.
-<<<<<<< HEAD
-	Comentarios/Cuestiones -- HOLa
+	Comentarios/Cuestiones --
 
 Administrador del sistema:
 	Representante -- Encargado de representacion
@@ -80,7 +79,6 @@ Administrador del sistema:
 	Criterios de exito -- Que el sistema almacene adecuadamente toda la información y que permita el manejo adecuado a cada uno de los sectores(usuarios hacer pedidos, encargado de almacen hacer inventario ... )
 	Implicación -- Total, ya que es el encargado del correcto funcionaiento de todo el sistema
 	Comentarios/Cuestiones -- Está familiarizado con los sistemas informáticos y con los sistemas de reparto
-=======
 	Comentarios/Cuestiones --
 
 Administrador de sedes:
@@ -108,4 +106,3 @@ Repartidor:
 	
 	Implicación -- Utilizar el sistema activamente para comprobar las recogidas y los envios
 	Comentarios/Cuestiones -- 
->>>>>>> 69a310716470a9d92b822830d771abce44e36886
