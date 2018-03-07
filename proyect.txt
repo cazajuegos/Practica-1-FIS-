@@ -55,7 +55,7 @@ Encargado de almacen:
 	Descripcion -- Usuario del sistema 
 	Tipo -- Empleado profesional en su ambito
 	Responsabilidades -- Organizar y clasificar los paquetes en localidades a repartir, gestionar la carga y descarga de paquetes en la flota de furgonetas
-	Criterios de exito -- Hay exito si se hace un buen control de la clasificación en los paquetes ya que conlleva una importante respansabilidad.
+	Criterios de exito -- Hay exito si se hace un buen control de la clasificación en los paquete.
 	Implicación -- Es el encargado de la organización del almacen.
 	Comentarios/Cuestiones -- Buen trabajo de equipo con otros compañeros.
 
@@ -67,4 +67,13 @@ Transportistas:
 	Responsabilidades -- Sumistrar datos realacionados con el envio del paquete.
 	Criterios de exito -- Que el sistema permita una facil y comoda introduccion de los datos para el envio del paquete, y un recibo en el plazo acordado.
 	Implicación -- Podra utilizar el sistema para enviar paquetes, ver su estado de envio.
-	Comentarios/Cuestiones -- 
+	Comentarios/Cuestiones --
+
+Administrador de sedes:
+	Representante -- Administrador de la sede
+	Descripcion -- Gestiona la sede 
+	Tipo -- Experto administrativo
+	Responsabilidades -- Organizar y gestionar cada subparte de la sede para un buen control de la misma
+	Criterios de exito -- Si es bueno en su ambito, la sede no deberia presentar ningun problema administrativo.
+	Implicación -- Es el encargado de una buena gestion y administración en la sede.
+	Comentarios/Cuestiones --
