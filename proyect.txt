@@ -37,6 +37,7 @@ Almacenero -- Representa a un empleado -- Usuario producto -- Relizar actividade
 Transportista -- Representa a un empleado -- Usiario producto -- Realiza transporte entre sedes.
 Repartidor -- Representa a un empleado -- Usiario producto -- Entrega y reparte paquetes de clientes.
 Administradores de sedes -- Representa encargado de sedes -- Usuario producto -- Se encarga de regular la sede.
+Administrador del sistema -- Representa administrador del sistema -- Administrador -- Se encarga de la creación y mantenimiento del sistema.
 Jefe -- Representa dueño de la compañia -- Usuario producto -- Se encarga de tomar decisiones.
 
 Perfiles de los implicados:
@@ -69,3 +70,12 @@ Transportistas:
 	Criterios de exito -- Que el sistema permita una facil y comoda introduccion de los datos para el envio del paquete, y un recibo en el plazo acordado.
 	Implicación -- Podra utilizar el sistema para enviar paquetes, ver su estado de envio.
 	Comentarios/Cuestiones -- HOLa
+
+Administrador del sistema:
+	Representante -- Encargado de representacion
+	Descripcion -- Adminitrador del sistema a desarrollar
+	Tipo -- Experto en el sistema, con una responsabilidad total sobre la gestión del mismo
+	Responsabilidades -- Gestionar el sistema para que funcione adecuadamente. Introducir toda la información necesaria en la base de datos del sistema.
+	Criterios de exito -- Que el sistema almacene adecuadamente toda la información y que permita el manejo adecuado a cada uno de los sectores(usuarios hacer pedidos, encargado de almacen hacer inventario ... )
+	Implicación -- Total, ya que es el encargado del correcto funcionaiento de todo el sistema
+	Comentarios/Cuestiones -- Está familiarizado con los sistemas informáticos y con los sistemas de reparto
