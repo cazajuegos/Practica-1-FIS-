@@ -26,6 +26,15 @@ OBJ2- Enviar paquetes de forma exitosa, gestionando la ruta de manera eficiente.
 
 
 RE- Localizar los centros de servicio más cercanos al domicilio del usuario.
+Repartidor:
+	Representante -- 
+	Descripcion -- Representa a un repartidor
+	Tipo -- Conductor
+	Responsabilidades -- Entregar correctamente el paquete y que recoja el paquete segun las indicaciones.
+	Criterios de exito -- Que el sistema permita conocer de forma facil y sencilla la recogida de paquete y la entrga de paquetes
+	
+	Implicación -- Utilizar el sistema activamente para comprobar las recogidas y los envios
+	Comentarios/Cuestiones -- 
 RE- Seguimiento de los envios.
 RE- Valoración del servicio proporcionado por la empresa, (usuario debe estar registrado).
 
@@ -77,3 +86,13 @@ Administrador de sedes:
 	Criterios de exito -- Si es bueno en su ambito, la sede no deberia presentar ningun problema administrativo.
 	Implicación -- Es el encargado de una buena gestion y administración en la sede.
 	Comentarios/Cuestiones --
+	
+Repartidor:
+	Representante -- 
+	Descripcion -- Representa a un repartidor
+	Tipo -- Conductor
+	Responsabilidades -- Entregar correctamente el paquete y que recoja el paquete segun las indicaciones.
+	Criterios de exito -- Que el sistema permita conocer de forma facil y sencilla la recogida de paquete y la entrga de paquetes
+	
+	Implicación -- Utilizar el sistema activamente para comprobar las recogidas y los envios
+	Comentarios/Cuestiones -- 
