@@ -1,0 +1,68 @@
+INDICE
+
+1. Descripción general del sistema y objetivos.
+2. Lista inicial de requisitos:
+	2.1 Funcionales
+	2.2 No funcionales
+	2.3 Informativos
+3. Glosario de terminos
+
+
+1. Descripción general del sistema y objetivos.
+
+Este proyecto en el que se desarrolla un sistema de gestión del supuesto de una empresa
+de transporte Enviamelo S.A. El sistema debera almacenar y gestionar la informacion relativa
+al envio/recibo de los paquetes, el mantenimiento de la flota de furgonetas, la administración de
+oficinas y almacenes de cada provincia, gestión de las subflotas pertenecientes a cada almacen.
+
+Descripción inicial de problema:
+- En la logistica tenemos al transportista el cual es el encargado de repartir paquetes.
+-
+
+OBJ0- Administración de la empresa como el calculo de presupuestos, gestión de recursos como mantenimiento de la flota, almacen, etc
+OBJ1- Almacenar y gestionar la información relativa al paquete(datos del emisor, datos del receptor, tipo de envio, etc).
+OBJ2- Enviar paquetes de forma exitosa, gestionando la ruta de manera eficiente.
+
+
+
+RE- Localizar los centros de servicio más cercanos al domicilio del usuario.
+RE- Seguimiento de los envios.
+RE- Valoración del servicio proporcionado por la empresa, (usuario debe estar registrado).
+
+
+
+Resumen de implicados:
+Cliente -- Representa el emisor o el receptor del paquete --  Usuario sistema -- Enviar/recibir paquetes
+Almacenero -- Representa a un empleado -- Usuario producto -- Relizar actividades relacionadas con la administración del almacen.
+Transportista -- Representa a un empleado -- Usiario producto -- Realiza transporte entré sedes.
+Repartidor -- Representa a un empleado -- Usiario producto -- Entrega y reparte paquetes de clientes.
+Administradores de sedes -- Representa encargado de sedes -- Usuario producto -- Se encarga de regular la sede.
+Jefe -- Representa dueño de la compañia -- Usuario producto -- Se encarga de tomar decisiones.
+
+Perfiles de los implicados:
+Clientes:
+	Representante -- Cualquier cliente
+	Descripcion -- cliente
+	Tipo -- Puede haber dos tipos de usuario el registrado y el que no, el que no esta registrado se limita a enviar y recibir paquetes y el que esta registrado se le añade un plus
+		el de valorar el servicio de la empresa.
+	Responsabilidades -- Sumistrar datos realacionados con el envio del paquete.
+	Criterios de exito -- Que el sistema permita una facil y comoda introduccion de los datos para el envio del paquete, y un recibo en el plazo acordado.
+	Implicación -- Podra utilizar el sistema para enviar paquetes, ver su estado de envio.
+	Comentarios/Cuestiones --
+
+Almaceneros:
+	Representante -- Empleados destinado a un puesto en el almacen
+	Descripcion -- cliente
+	Tipo -- Puede haber dos tipos de usuario el registrado y el que no, el que no esta registrado se limita a enviar y recibir paquetes y el que esta registrado se le añade un plus
+		el de valorar el servicio de la empresa.
+	Responsabilidades -- Sumistrar datos realacionados con el envio del paquete.
+	Criterios de exito -- Que el sistema permita una facil y comoda introduccion de los datos para el envio del paquete, y un recibo en el plazo acordado.
+	Implicación -- Podra utilizar el sistema para enviar paquetes, ver su estado de envio.
+	Comentarios/Cuestiones --
+
+
+
+
+
+
+
