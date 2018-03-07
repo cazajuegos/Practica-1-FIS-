@@ -58,4 +58,4 @@ Almaceneros:
 	Responsabilidades -- Sumistrar datos realacionados con el envio del paquete.
 	Criterios de exito -- Que el sistema permita una facil y comoda introduccion de los datos para el envio del paquete, y un recibo en el plazo acordado.
 	Implicación -- Podra utilizar el sistema para enviar paquetes, ver su estado de envio.
-	Comentarios/Cuestiones -- 
+	Comentarios/Cuestiones -- HOLa
