@@ -50,7 +50,17 @@ Clientes:
 	Implicación -- Podra utilizar el sistema para enviar paquetes, ver su estado de envio.
 	Comentarios/Cuestiones --
 
-Almaceneros:
+Encargado de almacen:
+	Representante -- Empleados destinado a un puesto en el almacen
+	Descripcion -- cliente
+	Tipo -- Puede haber dos tipos de usuario el registrado y el que no, el que no esta registrado se limita a enviar y recibir paquetes y el que esta registrado se le a�ade un plus
+		el de valorar el servicio de la empresa.
+	Responsabilidades -- Sumistrar datos realacionados con el envio del paquete.
+	Criterios de exito -- Que el sistema permita una facil y comoda introduccion de los datos para el envio del paquete, y un recibo en el plazo acordado.
+	Implicación -- Podra utilizar el sistema para enviar paquetes, ver su estado de envio.
+	Comentarios/Cuestiones -- HOLa
+
+Transportistas:
 	Representante -- Empleados destinado a un puesto en el almacen
 	Descripcion -- 
 	Tipo -- Puede haber dos tipos de usuario el registrado y el que no, el que no esta registrado se limita a enviar y recibir paquetes y el que esta registrado se le a�ade un plus
