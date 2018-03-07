@@ -76,11 +76,4 @@ Administrador de sedes:
 	Responsabilidades -- Organizar y gestionar cada subparte de la sede para un buen control de la misma
 	Criterios de exito -- Si es bueno en su ambito, la sede no deberia presentar ningun problema administrativo.
 	Implicación -- Es el encargado de una buena gestion y administración en la sede.
-	Comentarios/Cuestiones --
-
-Jefe:
-	Representante -- Ana Anaya
-	Descripcion -- Jefe 
-	Tipo -- Director de la empresa
-	Responsabilidades -- Controlar beneficios perdidad de la empresa, tomar decisiones importanes en el rumbo de la propia.
-	Implicación -- 	Es el maximo representante de la empresa.
+	Comentarios/Cuestiones -
