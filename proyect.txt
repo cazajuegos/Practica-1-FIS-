@@ -20,6 +20,7 @@ Descripción inicial de problema:
 -
 
 OBJ0- Administración de la empresa como el calculo de presupuestos, gesti�n de recursos como mantenimiento de la flota, almacen, etc
+
 OBJ1- Almacenar y gestionar la información relativa al paquete(datos del emisor, datos del receptor, tipo de envio, etc).
 OBJ2- Enviar paquetes de forma exitosa, gestionando la ruta de manera eficiente.
 
@@ -84,3 +85,13 @@ Jefe:
 	Tipo -- Director de la empresa
 	Responsabilidades -- Controlar beneficios perdidad de la empresa, tomar decisiones importanes en el rumbo de la propia.
 	Implicación -- 	Es el maximo representante de la empresa.
+
+Repartidor:
+	Representante -- 
+	Descripcion -- Representa a un repartidor
+	Tipo -- Conductor
+	Responsabilidades -- Entregar correctamente el paquete y que recoja el paquete segun las indicaciones.
+	Criterios de exito -- Que el sistema permita conocer de forma facil y sencilla la recogida de paquete y la entrga de paquetes
+	
+	Implicación -- Utilizar el sistema activamente para comprobar las recogidas y los envios
+	Comentarios/Cuestiones -- 
