@@ -20,6 +20,7 @@ Descripción inicial de problema:
 -
 
 OBJ0- Administración de la empresa como el calculo de presupuestos, gesti�n de recursos como mantenimiento de la flota, almacen, etc
+
 OBJ1- Almacenar y gestionar la información relativa al paquete(datos del emisor, datos del receptor, tipo de envio, etc).
 OBJ2- Enviar paquetes de forma exitosa, gestionando la ruta de manera eficiente.
 
@@ -50,12 +51,47 @@ Clientes:
 	Implicación -- Podra utilizar el sistema para enviar paquetes, ver su estado de envio.
 	Comentarios/Cuestiones --
 
-Encargados de almacen:
+Encargado de almacen:
 	Representante -- Empleados destinado a un puesto en el almacen
-	Descripcion -- cliente
+	Descripcion -- Usuario del sistema 
+	Tipo -- Empleado profesional en su ambito
+	Responsabilidades -- Organizar y clasificar los paquetes en localidades a repartir, gestionar la carga y descarga de paquetes en la flota de furgonetas
+	Criterios de exito -- Hay exito si se hace un buen control de la clasificación en los paquete.
+	Implicación -- Es el encargado de la organización del almacen.
+	Comentarios/Cuestiones -- Buen trabajo de equipo con otros compañeros.
+
+Transportistas:
+	Representante -- Empleados destinado a un puesto en el almacen
+	Descripcion -- 
 	Tipo -- Puede haber dos tipos de usuario el registrado y el que no, el que no esta registrado se limita a enviar y recibir paquetes y el que esta registrado se le a�ade un plus
 		el de valorar el servicio de la empresa.
 	Responsabilidades -- Sumistrar datos realacionados con el envio del paquete.
 	Criterios de exito -- Que el sistema permita una facil y comoda introduccion de los datos para el envio del paquete, y un recibo en el plazo acordado.
 	Implicación -- Podra utilizar el sistema para enviar paquetes, ver su estado de envio.
-	Comentarios/Cuestiones -- HOLa
+	Comentarios/Cuestiones --
+
+Administrador de sedes:
+	Representante -- Administrador de la sede
+	Descripcion -- Gestiona la sede 
+	Tipo -- Experto administrativo
+	Responsabilidades -- Organizar y gestionar cada subparte de la sede para un buen control de la misma
+	Criterios de exito -- Si es bueno en su ambito, la sede no deberia presentar ningun problema administrativo.
+	Implicación -- Es el encargado de una buena gestion y administración en la sede.
+	Comentarios/Cuestiones -
+
+Jefe:
+	Representante -- Ana Anaya
+	Descripcion -- Jefe 
+	Tipo -- Director de la empresa
+	Responsabilidades -- Controlar beneficios perdidad de la empresa, tomar decisiones importanes en el rumbo de la propia.
+	Implicación -- 	Es el maximo representante de la empresa.
+
+Repartidor:
+	Representante -- 
+	Descripcion -- Representa a un repartidor
+	Tipo -- Conductor
+	Responsabilidades -- Entregar correctamente el paquete y que recoja el paquete segun las indicaciones.
+	Criterios de exito -- Que el sistema permita conocer de forma facil y sencilla la recogida de paquete y la entrga de paquetes
+	
+	Implicación -- Utilizar el sistema activamente para comprobar las recogidas y los envios
+	Comentarios/Cuestiones -- 
