@@ -116,3 +116,8 @@ Solucion Actual : Determinar la trayectoria mas corta.
 Solución propuesta : Implementar un algoritmo en el sistema GPS el cual determine cual es la ruta mas rapida,
 	y el orden de repartos mas eficiente.
 
+Necesidad : Enviar un paquete
+Prioridad : Alta
+Problema: Escriibir la direccion correctamente
+Solucion Actual : Escritura a mano en un papel
+Solución propuesta : Una etiqueta estadar comprensible para cualquier persona.
