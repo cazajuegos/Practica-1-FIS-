@@ -30,7 +30,14 @@ OBJ2-	Administración de la empresa.
 OBJ3-	Envío exitoso/eficaz de paquetes.
 
 REQUISITOS FUNCIONALES.
-REF1-	
+Esta sección define y describe las características de alto nivel (requisitos funcionales) del sistema que son necesarias
+para cubrir las necesidades de los usuarios. Para facilitar su lectura y análisis se realiza una esctructuración de los reqisitos.
+
+REF1- Gestión de paquetes
+	El sistema debera proporcionar una gestion de paqueteria:
+	- Envio de paquetes.
+	- Seguimiento del envio.
+	- Recepcion de paquetes.	
 
 REQUISITOS NO FUNCIONALES.
 Usabilidad	
@@ -74,7 +81,7 @@ Requisitos físicos
 	RENF13- El repartidor constara con un movil o tablet sistema con la aplicación de la empresa para poder gestionar todo
 		el proceso.
 	
-
+REQUISITOS DE INFORMACION:
 REI1-	Los horarios de los trabajadores adecuado a los derechos del trabajador, sera 8h de trabajo.
 	Con un horario de adecuado al cargo.
 REI2-	Se proporcionara informacion de los puntos de recogida y envío de los paquetes.
@@ -82,9 +89,7 @@ REI3-	Cada tipo de tarifa debera estar explicada detalladamente con sus respecti
 REI4-	Llevar un recuento y administracion de la contabilidad salarial.
 REI5-	Ayuda con información relativa a preguntas frecuentes(FAQ) informacion varia sobre la empresa que sea util para la ayuda en linea (Atencion al cliente)
 
-RE- Localizar los centros de servicio más cercanos al domicilio del usuario.
-RE- Seguimiento de los envios.
-RE- Valoración del servicio proporcionado por la empresa, (usuario debe estar registrado).
+
 
 
 
