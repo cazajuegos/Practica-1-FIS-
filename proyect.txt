@@ -106,3 +106,13 @@ Repartidor:
 	
 	Implicación -- Utilizar el sistema activamente para comprobar las recogidas y los envios
 	Comentarios/Cuestiones -- 
+
+Necesidades principales de los implicados:
+
+Necesidad : Calculo de una ruta eficiente
+Prioridad : Alta
+Problema: ¿Como saber si el recorrido es el mas eficente y el que me garantiza que ahorrare gasolina?
+Solucion Actual : Determinar la trayectoria mas corta.
+Solución propuesta : Implementar un algoritmo en el sistema GPS el cual determine cual es la ruta mas rapida,
+	y el orden de repartos mas eficiente.
+
