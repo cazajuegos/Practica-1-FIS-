@@ -120,4 +120,10 @@ Necesidad : Enviar un paquete
 Prioridad : Alta
 Problema: Escriibir la direccion correctamente
 Solucion Actual : Escritura a mano en un papel
-Solución propuesta : Una etiqueta estadar comprensible para cualquier persona.
+Solución propuesta : Una etiqueta estadar comprensible para cualquier persona y informatizable
+
+Necesidad : Consultar el estado de un paquete
+Prioridad : Media
+Problema: ¿Como se donde el paquete en este momento?
+Solucion Actual : Llamar a la empresa
+Solución propuesta : Con un identificador o tu usuario el sistime seira capaz de decirte donde esta el paquete segun su historial
