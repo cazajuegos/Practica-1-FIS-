@@ -19,10 +19,9 @@ Descripción inicial de problema:
 - En la logistica tenemos al transportista el cual es el encargado de repartir paquetes.
 -
 
-OBJ0- Administración de la empresa como el calculo de presupuestos, gesti�n de recursos como mantenimiento de la flota, almacen, etc
-
+OBJ0- Administración de la empresa como el calculo de presupuestos, gestión de recursos como mantenimiento de la flota, almacen, etc
 OBJ1- Almacenar y gestionar la información relativa al paquete(datos del emisor, datos del receptor, tipo de envio, etc).
-OBJ2- Enviar paquetes de forma exitosa, gestionando la ruta de manera eficiente.
+OBJ2- Automatizar la gestión de paquetes.
 
 
 
