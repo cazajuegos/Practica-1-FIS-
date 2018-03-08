@@ -22,13 +22,64 @@ Descripción inicial de problema:
 OBJ0- Administración de la empresa como el calculo de presupuestos, gestión de recursos como mantenimiento de la flota, almacen, etc
 ¿(OBJ1- Almacenar y gestionar la información relativa al paquete(datos del emisor, datos del receptor, tipo de envio, etc).)?
 OBJ2- Automatizar la gestión de paquetes.
-OBJ3- */
+OBJ3- 
+*/
 
-OBJ1- Automatizar la gestión de paquetes.
-OBJ2- Administración de la empresa.
-OBJ3- Envío exitoso/eficaz de paquetes.
+OBJ1-	Automatizar la gestión de paquetes.
+OBJ2-	Administración de la empresa.
+OBJ3-	Envío exitoso/eficaz de paquetes.
 
+REQUISITOS FUNCIONALES.
+REF1-	
 
+REQUISITOS NO FUNCIONALES.
+Usabilidad	
+	RENF1-	Interfaz de usuario, la cual debe proporcionar facilidad de uso con instrucciones para guiar paso a paso al cliente en las tareas
+	relacionadas con el sistema de paqueteria.s
+	RENF2-  Debe proporcionar un sistema de atencion al cliente en linea para poder solucionar los ocurrentes problemas del cliente.
+Fiabilidad
+	RENF3-	Para preveer caidas del sistema se proporcionaran copias de seguridad.
+	RENF4-  No se podra introduccir informacion erronea acerca de la identificacion del cliente y de los domicilios.
+	RENF5-  Control de calidad al personal y a la flota de furgonetas.
+	RENF5-  Los clientes solo podran acceder a la informacion relativa del envio de sus paquetes.
+	RENF6-  Las etiquetas adjuntas al paquete seran plastificadas para evitar roturas por permeabilidad etc.
+	RENF7-  El sistema en general no debe tener ningun fallo de implementación el cual puede hacer caer al sistema entero.
+Rendimiento
+	RENF4-	Mantenimiento de la base de datos la cual estara albergada en un hardware con un disco duro hibrido con unas velocidades
+		de escritura y lectura considerablemente altas y duradero en el tiempo.
+	RENF5-	Portabilidad del sistema, el cual debera estar programado en un lenguaje compatible para todo tipo de dispositivos.
+	RENF6-	No se podra acceder a la modificacion de la información de un paquete a la vez (Concurrencia)
+	RENF7-	El sistema debe reflejar de forma instantanea en la interfaz la información modificada.
+	RENF8-	El sistema proporcionara acceso rapido a las consultas referentes con el seguimiento del envio.
+		Se calcula que el sistema debe manejar un volumen muy elevado de datos ( más de 50.000 paquetes 
+		y más de 30.000 usuarios).
+Soporte
+	RENF9-	Se utilizara un sistema de empaquetación del articulo a enviar por el cliente segun sus dimensiones, optando así por
+		varias plantillas de carton.
+	RENF10- El sistema debe ser modular para admitir futuras extensiones o modificaciones futuras sin modificar todo el codigo, y si hay
+		un posible fallo no afectar al sistema por completo.
+
+Restricciones de implementación
+	RENF10- Se debera utilizar como lenguaje de programación Java compatible con la ultima version de jsdk y Oracle.
+
+Restricciones de la interfaz
+	RENF11- El sistema debe interactuar y recoger datos relacionados con el paquete,
+		En concreto los campos:
+		Cliente emisor: (Nombre y Apellidos, DNI, Direccion, Numero de telefono, correo electronico, tarifa)
+		Cliente receptor: (Nombre y Apellidos, DNI, Direccion)
+		vía Internet, y enviarlos a la base de datos, al apartado de preparación del envio para procesarlo y añadirle
+		un codigo de seguimiento. (El cual sera un codigo de barras identificativo en cualquier momento).
+Requisitos físicos
+	RENF12- Al realizar el envio, el cliente puede optar por que sea recogido en su domicilio o un punto de entrega.
+	RENF13- El repartidor constara con un movil o tablet sistema con la aplicación de la empresa para poder gestionar todo
+		el proceso.
+	
+
+REI1-	Horarios de los trabajadores.
+REI2-	Puntos de recogida y envío de los paquetes.
+REI3-	Tarifas.
+REI4-	Contabilidad.
+REI5-	Ayuda.
 
 RE- Localizar los centros de servicio más cercanos al domicilio del usuario.
 RE- Seguimiento de los envios.
