@@ -126,3 +126,8 @@ Prioridad : Media
 Problema: ¿Como se donde el paquete en este momento?
 Solucion Actual : Llamar a la empresa
 Solución propuesta : Con un identificador o tu usuario el sistime seira capaz de decirte donde esta el paquete segun su historial
+
+Calculo de tarifas: 
+Disponer de unas tarifas que se aplican según el tamaño del paquete, ya que el peso es directamente proporcional al consumo de gasolina.
+El costo del envio tiene que ser proporcional a la duación del viaje, se debe aplicar otra tarifa dependiendo de los kilometros que
+sean necesarios para completar el viaje.
