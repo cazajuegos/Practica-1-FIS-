@@ -75,11 +75,12 @@ Requisitos físicos
 		el proceso.
 	
 
-REI1-	Horarios de los trabajadores.
-REI2-	Puntos de recogida y envío de los paquetes.
-REI3-	Tarifas.
-REI4-	Contabilidad.
-REI5-	Ayuda.
+REI1-	Los horarios de los trabajadores adecuado a los derechos del trabajador, sera 8h de trabajo.
+	Con un horario de adecuado al cargo.
+REI2-	Se proporcionara informacion de los puntos de recogida y envío de los paquetes.
+REI3-	Cada tipo de tarifa debera estar explicada detalladamente con sus respectivas condiciones.
+REI4-	Llevar un recuento y administracion de la contabilidad salarial.
+REI5-	Ayuda con información relativa a preguntas frecuentes(FAQ) informacion varia sobre la empresa que sea util para la ayuda en linea (Atencion al cliente)
 
 RE- Localizar los centros de servicio más cercanos al domicilio del usuario.
 RE- Seguimiento de los envios.
