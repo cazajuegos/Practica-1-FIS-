@@ -47,6 +47,16 @@ RF3-	Gestión de rutas.
 	RF3.3-	Consulta de ruta.
 		RF3.3.1-	Consulta de posibles carreteras cortadas por el tiempo/accidentes.
 	RF3.4-	Gestión de transportistas.
+		RF3.4.1-	Alta transportista.
+		RF3.4.2-	Baja transportista.
+		RF3.4.3-	Controlar las horas de descanso. Los transportistas estarán monitorizados por geolocación.
+		RF3.4.4-	Control de horario.
+		RF3.4.5-	Aviso de salida.
+		RF3.4.6-	Aviso de llegada.
+		RF3.4.7-	Consulta de los seguros.
+		RF3.4.8-	Gestión salarios
+			RF3.4.8.1-	Calculo para la asignación del importe recibido por ruta.
+		RF3.4.9-	Consulta de horarios para la disponibilidad.
 	
 
 RF4-	Gestión de sucursal.
