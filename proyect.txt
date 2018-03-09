@@ -17,60 +17,78 @@ oficinas y almacenes de cada provincia, gestión de las subflotas pertenecientes
 
 Descripción inicial de problema:
 - En la logistica tenemos al transportista el cual es el encargado de repartir paquetes.
--
-/*
-OBJ0- Administración de la empresa como el calculo de presupuestos, gestión de recursos como mantenimiento de la flota, almacen, etc
-¿(OBJ1- Almacenar y gestionar la información relativa al paquete(datos del emisor, datos del receptor, tipo de envio, etc).)?
-OBJ2- Automatizar la gestión de paquetes.
-OBJ3- 
-*/
 
 OBJ1-	Automatizar la gestión de paquetes.
 OBJ2-	Administración de la empresa.
 OBJ3-	Envío exitoso/eficaz de paquetes.
+OBJ4-	Automatización de la gestión de rutas.
 
 REQUISITOS FUNCIONALES.
 Esta sección define y describe las características de alto nivel (requisitos funcionales) del sistema que son necesarias
 para cubrir las necesidades de los usuarios. Para facilitar su lectura y análisis se realiza una esctructuración de los reqisitos.
 
-REF1- Gestión de paquetes
-	El sistema debera proporcionar una gestion de paqueteria:
-	- Envio de paquetes.
-	- Seguimiento del envio.
-	- Recepcion de paquetes.	
+
+RF1-	Gestión de paquetes. El sistema debera proporcionar una gestion de paquetería:
+		RF1.1-	Elección de envío. El usuario podrá decidir si enviar el paquete desde casa o llevarlo a un punto de recogida.
+		RF1.2-	Dar de alta el paquete (BD). El sistema asigna un código a los nuevos paquetes a modo de identificador. 
+		RF1.3-	Guardar los datos del paquete.
+		RF1.4-	Dar de baja el paquete (BD). El sistema elimina el paquete de la BD ya bien sea por cancelación o porque llega su destino.
+		RF1.5-	Seguimiento del envío. Los usuarios podrán ver el estado del paquete, y el tiempo que queda para su llegada.
+		RF1.6-	Elegir punto de recogida. A domicilio o en sucursal.
+
+RF2-	Gestión de pagos. Pago en efectivo o por tarjeta.
+		RF2.1-	Devolución del dinero o parte, en función de la prontitud en que se efectue la baja.
+		RF2.2-	En caso de desperfecto/rotura se hará una evaluación de daños y se devolverá un importe en función del mismo.
+		RF2.3-	Calculo de tarifas.
+	
+RF3-	Gestión de rutas.
+
+RF4-	Gestión de sucursal.
+
+RF5-	Gestión de Clientes.
+	RF5.1-	Alta de clientes.
+	RF5.2-	Consulta de clientes.
+		RF5.2.1-	Consulta de sus datos personales.
+		RF5.2.2-	Historial. Lista con todos los paquetes enviados/recibidos por el usuario.
+		RF5.2.3-	Listado de los paquetes que siguen en transito.
+	RF5.3-	Modificar clientes. Alterar los datos.
+	RF5.4-	Baja de clientes.
+	RF5.5-	Gestión de pagos
+	
+	
 
 REQUISITOS NO FUNCIONALES.
 Usabilidad	
-	RENF1-	Interfaz de usuario, la cual debe proporcionar facilidad de uso con instrucciones para guiar paso a paso al cliente en las tareas
+	RN1-	Interfaz de usuario, la cual debe proporcionar facilidad de uso con instrucciones para guiar paso a paso al cliente en las tareas
 	relacionadas con el sistema de paqueteria.s
-	RENF2-  Debe proporcionar un sistema de atencion al cliente en linea para poder solucionar los ocurrentes problemas del cliente.
+	RN2-  Debe proporcionar un sistema de atencion al cliente en linea para poder solucionar los ocurrentes problemas del cliente.
 Fiabilidad
-	RENF3-	Para preveer caidas del sistema se proporcionaran copias de seguridad.
-	RENF4-  No se podra introduccir informacion erronea acerca de la identificacion del cliente y de los domicilios.
-	RENF5-  Control de calidad al personal y a la flota de furgonetas.
-	RENF5-  Los clientes solo podran acceder a la informacion relativa del envio de sus paquetes.
-	RENF6-  Las etiquetas adjuntas al paquete seran plastificadas para evitar roturas por permeabilidad etc.
-	RENF7-  El sistema en general no debe tener ningun fallo de implementación el cual puede hacer caer al sistema entero.
+	RN3-	Para preveer caidas del sistema se proporcionaran copias de seguridad.
+	RN4-  No se podra introduccir informacion erronea acerca de la identificacion del cliente y de los domicilios.
+	RN5-  Control de calidad al personal y a la flota de furgonetas.
+	RN6-  Los clientes solo podran acceder a la informacion relativa del envio de sus paquetes.
+	RN7-  Las etiquetas adjuntas al paquete seran plastificadas para evitar roturas por permeabilidad etc.
+	RN8-  El sistema en general no debe tener ningun fallo de implementación el cual puede hacer caer al sistema entero.
 Rendimiento
-	RENF4-	Mantenimiento de la base de datos la cual estara albergada en un hardware con un disco duro hibrido con unas velocidades
+	RN9-	Mantenimiento de la base de datos la cual estara albergada en un hardware con un disco duro hibrido con unas velocidades
 		de escritura y lectura considerablemente altas y duradero en el tiempo.
-	RENF5-	Portabilidad del sistema, el cual debera estar programado en un lenguaje compatible para todo tipo de dispositivos.
-	RENF6-	No se podra acceder a la modificacion de la información de un paquete a la vez (Concurrencia)
-	RENF7-	El sistema debe reflejar de forma instantanea en la interfaz la información modificada.
-	RENF8-	El sistema proporcionara acceso rapido a las consultas referentes con el seguimiento del envio.
+	RN10-	Portabilidad del sistema, el cual debera estar programado en un lenguaje compatible para todo tipo de dispositivos.
+	RN11-	No se podra acceder a la modificacion de la información de un paquete a la vez (Concurrencia)
+	RN12-	El sistema debe reflejar de forma instantanea en la interfaz la información modificada.
+	RN13-	El sistema proporcionara acceso rapido a las consultas referentes con el seguimiento del envio.
 		Se calcula que el sistema debe manejar un volumen muy elevado de datos ( más de 50.000 paquetes 
 		y más de 30.000 usuarios).
 Soporte
-	RENF9-	Se utilizara un sistema de empaquetación del articulo a enviar por el cliente segun sus dimensiones, optando así por
+	RN14-	Se utilizara un sistema de empaquetación del articulo a enviar por el cliente segun sus dimensiones, optando así por
 		varias plantillas de carton.
-	RENF10- El sistema debe ser modular para admitir futuras extensiones o modificaciones futuras sin modificar todo el codigo, y si hay
+	RN15- El sistema debe ser modular para admitir futuras extensiones o modificaciones futuras sin modificar todo el codigo, y si hay
 		un posible fallo no afectar al sistema por completo.
 
 Restricciones de implementación
-	RENF10- Se debera utilizar como lenguaje de programación Java compatible con la ultima version de jsdk y Oracle.
+	RN16- Se debera utilizar como lenguaje de programación Java compatible con la ultima version de jsdk y Oracle.
 
 Restricciones de la interfaz
-	RENF11- El sistema debe interactuar y recoger datos relacionados con el paquete,
+	RN17- El sistema debe interactuar y recoger datos relacionados con el paquete,
 		En concreto los campos:
 		Cliente emisor: (Nombre y Apellidos, DNI, Direccion, Numero de telefono, correo electronico, tarifa)
 		Cliente receptor: (Nombre y Apellidos, DNI, Direccion)
