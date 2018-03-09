@@ -60,6 +60,22 @@ RF3-	Gestión de rutas.
 	
 
 RF4-	Gestión de sucursal.
+	RF4.1-	Alta de los encargado de almacén y repartidores.
+	RF4.2-	Baja de los encargado de almacén y repartidores.
+	RF4.3-	Consulta de los empleados.
+	RF4.4-	Catalogación de los paquetes.
+	RF4.5-	Gestión de presuspuestos.
+		RF4.5.1-	Consulta de presupuestos.
+		RF4.5.2-	Calculo de presuspuestos(Concesión de limpieza...)
+	RF4.6-	Gestión de flota.
+		RF4.6.1-	Alta de Furgonetas.
+		RF4.6.2-	Baja de Furgonetas
+		RF4.6.3-	Consulta de las Furgonetas.
+	RF4.7-	Administración de rutas locales
+		RF4.7.1-	Alta de rutas.
+		RF4.7.2-	Baja de rutas.
+		RF4.7.3-	Conulta de rutas.		
+		RF4.7.4-	Calculo de rutas.
 
 RF5-	Gestión de Clientes.
 	RF5.1-	Alta de clientes.
@@ -111,17 +127,17 @@ Restricciones de la interfaz
 		vía Internet, y enviarlos a la base de datos, al apartado de preparación del envio para procesarlo y añadirle
 		un codigo de seguimiento. (El cual sera un codigo de barras identificativo en cualquier momento).
 Requisitos físicos
-	RENF12- Al realizar el envio, el cliente puede optar por que sea recogido en su domicilio o un punto de entrega.
-	RENF13- El repartidor constara con un movil o tablet sistema con la aplicación de la empresa para poder gestionar todo
+	RN18- Al realizar el envio, el cliente puede optar por que sea recogido en su domicilio o un punto de entrega.
+	RN19- El repartidor constara con un movil o tablet sistema con la aplicación de la empresa para poder gestionar todo
 		el proceso.
 	
 REQUISITOS DE INFORMACION:
-REI1-	Los horarios de los trabajadores adecuado a los derechos del trabajador, sera 8h de trabajo.
+RI1-	Los horarios de los trabajadores adecuado a los derechos del trabajador, sera 8h de trabajo.
 	Con un horario de adecuado al cargo.
-REI2-	Se proporcionara informacion de los puntos de recogida y envío de los paquetes.
-REI3-	Cada tipo de tarifa debera estar explicada detalladamente con sus respectivas condiciones.
-REI4-	Llevar un recuento y administracion de la contabilidad salarial.
-REI5-	Ayuda con información relativa a preguntas frecuentes(FAQ) informacion varia sobre la empresa que sea util para la ayuda en linea (Atencion al cliente)
+RI2-	Se proporcionara informacion de los puntos de recogida y envío de los paquetes.
+RI3-	Cada tipo de tarifa debera estar explicada detalladamente con sus respectivas condiciones.
+RI4-	Llevar un recuento y administracion de la contabilidad salarial.
+RI5-	Ayuda con información relativa a preguntas frecuentes(FAQ) informacion varia sobre la empresa que sea util para la ayuda en linea (Atencion al cliente)
 
 
 
